@@ -41,8 +41,8 @@ class Song
     end
   end
 
-  def alphabetical
-  @@all.sort do |a, b| a <=> b 
+  def self.alphabetical
+  self.all.sort do |a, b| a <=> b 
     end
   end
 end
