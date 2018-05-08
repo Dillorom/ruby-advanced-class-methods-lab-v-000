@@ -42,7 +42,6 @@ class Song
   end
 
   def self.alphabetical
-  @@all.sort do |a, b| a <=> b
-    end
+  @@all.sort {|name1, name2| name1 <=> name2}
   end
 end
